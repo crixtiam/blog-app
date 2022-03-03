@@ -32,6 +32,7 @@ class LoginFragment : Fragment(R.layout.fragment_login) {
             val password = binding.editTextPassword.text.toString().trim()
             validateCredentials(email,password)
             signIn(email,password)
+            val text = "text"
         }
     }
 
